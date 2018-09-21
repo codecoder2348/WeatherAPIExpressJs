@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Test</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <table id='weatherTable' class="table table-striped"  >
+        <tr>
+            <th scope="col">Location</th>
+            <th scope="col">Philadelphia, PA</th>
+        </tr> 
+        
+        <tr>
+            <td> Temperature </td>
+            <td> <%= weather.temperature %> °F </td>
+        </tr>
+
+        <tr>
+            <td> Humidity </td>
+            <td> <%= weather.humidity %> %</td>
+        </tr>
+        <tr>
+            <td> Visibility </td>
+            <td> <%= weather.visibility %> Km</td>
+        </tr>
+        <tr>
+            <td> Wind Speed </td>
+            <td> <%= weather.windSpeed %> </td>
+        </tr>
+        <tr>
+            <td> Summary </td>
+            <td> <%= weather.summary %> </td>
+        </tr>
+    </table>
+
+
+</div>
+</body>
+</html>
