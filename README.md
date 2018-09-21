@@ -2,6 +2,7 @@
 Run the application by
 
 npm install (It will download required module and pkg)
+
 npm start (start our application on port 3000)
 
 
